@@ -1,30 +1,16 @@
-# training
-안녕하세요
-시스템 보안에 관심을 가지고 학습 중인 정보보안공학과 전공 학생입니다.
-본 저장소는 ctf 문제풀이,시스템해킹실습,리눅스 기반 보안 실험을 진행하며
-문제 분석 -> 취약점 식별 -> 해결 과정 문서화에 중점을 두고 정리한 포트폴리오 입니다.
+# 시스템 보안 학습 기록
 
+CTF 문제 풀이와 시스템 보안 실습을 정리한 저장소입니다. 문제별 디렉터리에서 취약점 분석과 풀이 자료를 살펴볼 수 있습니다.
 
-- 각 디렉터리에는 문제 풀이와 분석 기록이 포함되어 있습니다.
-- **main 브랜치**: 최종 완성본 풀이
-- **wip 브랜치**: 진행 중인 분석, 실패 실험, 단계별 기록 포함
+## 살펴보기
 
----
+- [버퍼 오버플로 기초](02_basic_bof_000)
+- [Return to Shellcode](04_return_to_shellcode)
+- [Return to Library](06_return_to_library)
+- [ROP](07_rop)
+- [Use-after-free](16_uaf_overwrite)
+- [Tcache Poisoning](17_Tcache_Poisoning)
 
-## How to Browse
+각 디렉터리는 주제별 실습 자료를 담고 있습니다. 이전 자료는 [archive](99_archive)에서 확인할 수 있습니다.
 
-- 최종 풀이 확인: [main 브랜치](https://github.com/jiwoongchoi-norun/pwnable/tree/main)
-
-> 💡 면접관님께: 브랜치를 클릭하면 **문제 해결 과정과 실패 시도, 개선 과정**까지 모두 확인하실 수 있습니다.
-
----
-
-## Contribution / Updates
-
-- 이 저장소는 개인 학습 및 포트폴리오 용도로 관리 중이며,  
-  새로운 문제 풀이와 개선 사항은 지속적으로 업데이트될 예정입니다.
-
-> 🚧 Work in Progress  
-> 현재 이 문제 풀이 진행 중이며, 상세 분석 과정은 wip 브랜치를 확인하세요.
-> 
-> 브랜치: [wip/08-basic-rop-x64](https://github.com/jiwoongchoi-norun/pwnable/tree/wip/08-basic-rop-x64)
+> 개인 학습과 보안 실습을 위한 기록입니다.
